@@ -20,11 +20,9 @@ pipeline {
             }
         }
     }
-}
-
-post { 
+    post { 
         always { 
-            echo 'I will always say Hello again!'
+            echo "I will always say Hello again!"
         }
         success {
             echo "I will run only when the job is success"
