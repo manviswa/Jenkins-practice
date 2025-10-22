@@ -7,7 +7,7 @@ pipeline {
                 sh '''
                   ls -ltr
                   pwd
-                  echo "push event checking-Hema"
+                  echo "push event checking-Jathin......"
                 '''
                 //
             }
