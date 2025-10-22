@@ -7,7 +7,7 @@ pipeline {
                 sh '''
                   ls -ltr
                   pwd
-                  echo "hellow World"
+                  echo "hellow World from push event"
                 '''
                 //
             }
