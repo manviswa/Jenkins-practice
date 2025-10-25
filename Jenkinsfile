@@ -1,5 +1,11 @@
 pipeline {
     agent { label 'AGENT-1' }
+    options {
+        timeout(time: 1, unit: 'HOURS') 
+    }
+    environment { 
+        USER = 'Viswa'
+    }
     stages {
         stage('Build') {
             steps {
