@@ -33,7 +33,7 @@ pipeline {
         }
         stage('example'){
             environment {
-                AUTH = credentials('pass-auth')
+                AUTH = credentials('centos')
             }
             steps{
                 sh 'printenv'
