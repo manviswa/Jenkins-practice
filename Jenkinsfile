@@ -13,7 +13,8 @@ pipeline {
                 sh '''
                   ls -ltr
                   pwd
-                  echo "push event checking"
+                  echo "hello world from viswa"
+                  printenv
                 '''
                 //
             }
